@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "APPod"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Getting to handle with creating Pod."
 
 # This description is used to generate tags and improve search results.
