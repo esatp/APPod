@@ -43,6 +43,8 @@
 		3B03F8171C80A41000A5DCBD /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8141C80A41000A5DCBD /* close.png */; };
 		3B03F8181C80A41000A5DCBD /* SatisMeterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */; };
 		3B03F8191C80A41000A5DCBD /* SatisMeterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */; };
+		3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
+		3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
 		3E0684C75C8CA09A6AB1B562F690827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4B46D57C8F5094900CEAF00A492A3287 /* APPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */; };
 		5050384B23ED57ED7AF06BE281E5A1DC /* Pods-APPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E45100FDD58F6F285B33527F741C72 /* Pods-APPod_Tests-dummy.m */; };
@@ -111,6 +113,7 @@
 		3B03F7F11C80A2DB00A5DCBD /* SMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMService.m; sourceTree = "<group>"; };
 		3B03F8141C80A41000A5DCBD /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Assets/close.png; sourceTree = "<group>"; };
 		3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SatisMeterView.xib; path = Assets/SatisMeterView.xib; sourceTree = "<group>"; };
+		3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APPod-dummy.m"; sourceTree = "<group>"; };
 		4B666F428D857C037C40A4E32557AC29 /* APPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +177,7 @@
 			children = (
 				3B03F8141C80A41000A5DCBD /* close.png */,
 				3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */,
+				3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -477,6 +481,7 @@
 			files = (
 				3B03F8161C80A41000A5DCBD /* close.png in Resources */,
 				627A722B1CE59DA30A0B8D96A27562C1 /* APPod.bundle in Resources */,
+				3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
 				3B03F8181C80A41000A5DCBD /* SatisMeterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B03F8171C80A41000A5DCBD /* close.png in Resources */,
+				3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
 				3B03F8191C80A41000A5DCBD /* SatisMeterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
