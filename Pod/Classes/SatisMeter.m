@@ -79,24 +79,26 @@
 -(void) showSatisMeterViewInViewController:(UIViewController *)viewController {
     
     if ([SatisMeter sharedInstance].isReady) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"SatisMeterResources" ofType:@"bundle"];
-        NSBundle *frameworkBundle = [NSBundle bundleWithPath:path];
+        //        NSString *path = [[NSBundle mainBundle] pathForResource:@"SatisMeterResources" ofType:@"bundle"];
+        //        NSBundle *frameworkBundle = [NSBundle bundleWithPath:path];
+        //
+        //        SatisMeterView *smView = [[frameworkBundle loadNibNamed:@"SatisMeterView" owner:self options:nil] firstObject];
+        //        smView.alpha=0;
+        //        smView.frame = CGRectMake(0, 0, [viewController.view bounds].size.width, [viewController.view bounds].size.height);
+        //        smView.mainColor = [SatisMeter sharedInstance].mainColor;
+        //        smView.writeKey =[SatisMeter sharedInstance].writeKey;
+        //        smView.userId =[SatisMeter sharedInstance].userId;
+        //        smView.shouldShowPoweredBy= [SatisMeter sharedInstance].shouldShowPoweredBy;
+        //        smView.translationWords = [SatisMeter sharedInstance].translationWords;
+        //        smView.widgetDictionary =[SatisMeter sharedInstance].widgetDictionary;
+        //        [smView initSettings];
+        //        smView.autoresizingMask = viewController.view.autoresizingMask;
+        //        [viewController.view addSubview:smView];
+        //        [UIView animateWithDuration:0.3f animations:^{
+        //            smView.alpha=1.f;
+        //        }];
+        NSLog(@"SatisMeter View is ready to show");
         
-        SatisMeterView *smView = [[frameworkBundle loadNibNamed:@"SatisMeterView" owner:self options:nil] firstObject];
-        smView.alpha=0;
-        smView.frame = CGRectMake(0, 0, [viewController.view bounds].size.width, [viewController.view bounds].size.height);
-        smView.mainColor = [SatisMeter sharedInstance].mainColor;
-        smView.writeKey =[SatisMeter sharedInstance].writeKey;
-        smView.userId =[SatisMeter sharedInstance].userId;
-        smView.shouldShowPoweredBy= [SatisMeter sharedInstance].shouldShowPoweredBy;
-        smView.translationWords = [SatisMeter sharedInstance].translationWords;
-        smView.widgetDictionary =[SatisMeter sharedInstance].widgetDictionary;
-        [smView initSettings];
-        smView.autoresizingMask = viewController.view.autoresizingMask;
-        [viewController.view addSubview:smView];
-        [UIView animateWithDuration:0.3f animations:^{
-            smView.alpha=1.f;
-        }];
     }else{
         NSLog(@"SatisMeter View is not ready to show");
     }
