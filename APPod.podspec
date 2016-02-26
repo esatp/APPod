@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "APPod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of APPod."
+  s.summary          = "Getting to handle with creating Pod."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+        This is another project where I am learning how to create a Pod.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/APPod"
+  s.homepage         = "https://github.com/thebeni/APPod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Arben Pnishi" => "arbenpnishi@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/APPod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/thebeni/APPod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -31,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'APPod' => ['Pod/Assets/*.png']
+'APPod' => ['Pod/Assets/*.{png,xib}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

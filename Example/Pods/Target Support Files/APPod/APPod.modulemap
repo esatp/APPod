@@ -1,0 +1,6 @@
+framework module APPod {
+  umbrella header "APPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

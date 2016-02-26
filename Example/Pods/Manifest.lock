@@ -1,0 +1,14 @@
+PODS:
+  - APPod (0.1.0)
+
+DEPENDENCIES:
+  - APPod (from `../`)
+
+EXTERNAL SOURCES:
+  APPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  APPod: abd9be7e447de1f0de418336874b94e41f493078
+
+COCOAPODS: 0.39.0
