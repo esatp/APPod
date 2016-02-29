@@ -9,42 +9,11 @@
 /* Begin PBXBuildFile section */
 		34F3A5C19CE9FAC6BE7C448CD5E714B6 /* Pods-APPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DCBBF37F911681D1FF88F1C0AD0D99 /* Pods-APPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		356D6CFC38DCC6897FF02CA4A6CA68D3 /* Pods-APPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887F355A856B00163DB21C6DB6C4F2C /* Pods-APPod_Example-dummy.m */; };
-		3B03F7F41C80A2DB00A5DCBD /* RateControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7DD1C80A2DB00A5DCBD /* RateControl.h */; };
-		3B03F7F51C80A2DB00A5DCBD /* RateControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7DE1C80A2DB00A5DCBD /* RateControl.m */; };
-		3B03F7F61C80A2DB00A5DCBD /* RateControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7DE1C80A2DB00A5DCBD /* RateControl.m */; };
 		3B03F7F71C80A2DB00A5DCBD /* SatisMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7DF1C80A2DB00A5DCBD /* SatisMeter.h */; };
-		3B03F7F81C80A2DB00A5DCBD /* SatisMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E01C80A2DB00A5DCBD /* SatisMeter.m */; };
-		3B03F7F91C80A2DB00A5DCBD /* SatisMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E01C80A2DB00A5DCBD /* SatisMeter.m */; };
-		3B03F7FA1C80A2DB00A5DCBD /* SatisMeterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7E11C80A2DB00A5DCBD /* SatisMeterView.h */; };
-		3B03F7FB1C80A2DB00A5DCBD /* SatisMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E21C80A2DB00A5DCBD /* SatisMeterView.m */; };
-		3B03F7FC1C80A2DB00A5DCBD /* SatisMeterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E21C80A2DB00A5DCBD /* SatisMeterView.m */; };
-		3B03F7FF1C80A2DB00A5DCBD /* SMAFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7E41C80A2DB00A5DCBD /* SMAFHTTPSessionManager.h */; };
-		3B03F8001C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E51C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m */; };
-		3B03F8011C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E51C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m */; };
-		3B03F8021C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7E61C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.h */; };
-		3B03F8031C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E71C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m */; };
-		3B03F8041C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E71C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m */; };
-		3B03F8051C80A2DB00A5DCBD /* SMAFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7E81C80A2DB00A5DCBD /* SMAFSecurityPolicy.h */; };
-		3B03F8061C80A2DB00A5DCBD /* SMAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E91C80A2DB00A5DCBD /* SMAFSecurityPolicy.m */; };
-		3B03F8071C80A2DB00A5DCBD /* SMAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7E91C80A2DB00A5DCBD /* SMAFSecurityPolicy.m */; };
-		3B03F8081C80A2DB00A5DCBD /* SMAFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7EA1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.h */; };
-		3B03F8091C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7EB1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m */; };
-		3B03F80A1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7EB1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m */; };
-		3B03F80B1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7EC1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.h */; };
-		3B03F80C1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7ED1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m */; };
-		3B03F80D1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7ED1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m */; };
-		3B03F80E1C80A2DB00A5DCBD /* SMAFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7EE1C80A2DB00A5DCBD /* SMAFURLSessionManager.h */; };
-		3B03F80F1C80A2DB00A5DCBD /* SMAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7EF1C80A2DB00A5DCBD /* SMAFURLSessionManager.m */; };
-		3B03F8101C80A2DB00A5DCBD /* SMAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7EF1C80A2DB00A5DCBD /* SMAFURLSessionManager.m */; };
-		3B03F8111C80A2DB00A5DCBD /* SMService.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7F01C80A2DB00A5DCBD /* SMService.h */; };
-		3B03F8121C80A2DB00A5DCBD /* SMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7F11C80A2DB00A5DCBD /* SMService.m */; };
-		3B03F8131C80A2DB00A5DCBD /* SMService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B03F7F11C80A2DB00A5DCBD /* SMService.m */; };
-		3B03F8161C80A41000A5DCBD /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8141C80A41000A5DCBD /* close.png */; };
-		3B03F8171C80A41000A5DCBD /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8141C80A41000A5DCBD /* close.png */; };
-		3B03F8181C80A41000A5DCBD /* SatisMeterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */; };
-		3B03F8191C80A41000A5DCBD /* SatisMeterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */; };
 		3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
 		3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
+		3B03F8211C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */; };
+		3B03F8221C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */; };
 		3E0684C75C8CA09A6AB1B562F690827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4B46D57C8F5094900CEAF00A492A3287 /* APPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */; };
 		5050384B23ED57ED7AF06BE281E5A1DC /* Pods-APPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E45100FDD58F6F285B33527F741C72 /* Pods-APPod_Tests-dummy.m */; };
@@ -91,29 +60,9 @@
 		3522D8B758E97D56CF33B8229823E211 /* Pods-APPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3873142B2990C9345DB56F904EBBC00E /* APPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APPod-umbrella.h"; sourceTree = "<group>"; };
 		3A51FFB3FA785AFC92A7020B94114313 /* Pods-APPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3B03F7DD1C80A2DB00A5DCBD /* RateControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateControl.h; sourceTree = "<group>"; };
-		3B03F7DE1C80A2DB00A5DCBD /* RateControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateControl.m; sourceTree = "<group>"; };
 		3B03F7DF1C80A2DB00A5DCBD /* SatisMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatisMeter.h; sourceTree = "<group>"; };
-		3B03F7E01C80A2DB00A5DCBD /* SatisMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SatisMeter.m; sourceTree = "<group>"; };
-		3B03F7E11C80A2DB00A5DCBD /* SatisMeterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatisMeterView.h; sourceTree = "<group>"; };
-		3B03F7E21C80A2DB00A5DCBD /* SatisMeterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SatisMeterView.m; sourceTree = "<group>"; };
-		3B03F7E41C80A2DB00A5DCBD /* SMAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFHTTPSessionManager.h; sourceTree = "<group>"; };
-		3B03F7E51C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFHTTPSessionManager.m; sourceTree = "<group>"; };
-		3B03F7E61C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		3B03F7E71C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		3B03F7E81C80A2DB00A5DCBD /* SMAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFSecurityPolicy.h; sourceTree = "<group>"; };
-		3B03F7E91C80A2DB00A5DCBD /* SMAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFSecurityPolicy.m; sourceTree = "<group>"; };
-		3B03F7EA1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFURLRequestSerialization.h; sourceTree = "<group>"; };
-		3B03F7EB1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFURLRequestSerialization.m; sourceTree = "<group>"; };
-		3B03F7EC1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFURLResponseSerialization.h; sourceTree = "<group>"; };
-		3B03F7ED1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFURLResponseSerialization.m; sourceTree = "<group>"; };
-		3B03F7EE1C80A2DB00A5DCBD /* SMAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAFURLSessionManager.h; sourceTree = "<group>"; };
-		3B03F7EF1C80A2DB00A5DCBD /* SMAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAFURLSessionManager.m; sourceTree = "<group>"; };
-		3B03F7F01C80A2DB00A5DCBD /* SMService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMService.h; sourceTree = "<group>"; };
-		3B03F7F11C80A2DB00A5DCBD /* SMService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMService.m; sourceTree = "<group>"; };
-		3B03F8141C80A41000A5DCBD /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = close.png; path = Assets/close.png; sourceTree = "<group>"; };
-		3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SatisMeterView.xib; path = Assets/SatisMeterView.xib; sourceTree = "<group>"; };
 		3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
+		3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSatisMeter-universal.a"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APPod-dummy.m"; sourceTree = "<group>"; };
 		4B666F428D857C037C40A4E32557AC29 /* APPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B03F8221C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B03F8211C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */,
 				C875D9D97446FA5F0C0A41F16A0ED224 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,9 +126,8 @@
 		3B03F7DB1C80A17700A5DCBD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3B03F8141C80A41000A5DCBD /* close.png */,
-				3B03F8151C80A41000A5DCBD /* SatisMeterView.xib */,
 				3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */,
+				3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -203,26 +153,7 @@
 		62DDDF457BC44D9AC57D9D5079275859 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3B03F7DD1C80A2DB00A5DCBD /* RateControl.h */,
-				3B03F7DE1C80A2DB00A5DCBD /* RateControl.m */,
 				3B03F7DF1C80A2DB00A5DCBD /* SatisMeter.h */,
-				3B03F7E01C80A2DB00A5DCBD /* SatisMeter.m */,
-				3B03F7E11C80A2DB00A5DCBD /* SatisMeterView.h */,
-				3B03F7E21C80A2DB00A5DCBD /* SatisMeterView.m */,
-				3B03F7E41C80A2DB00A5DCBD /* SMAFHTTPSessionManager.h */,
-				3B03F7E51C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m */,
-				3B03F7E61C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.h */,
-				3B03F7E71C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m */,
-				3B03F7E81C80A2DB00A5DCBD /* SMAFSecurityPolicy.h */,
-				3B03F7E91C80A2DB00A5DCBD /* SMAFSecurityPolicy.m */,
-				3B03F7EA1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.h */,
-				3B03F7EB1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m */,
-				3B03F7EC1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.h */,
-				3B03F7ED1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m */,
-				3B03F7EE1C80A2DB00A5DCBD /* SMAFURLSessionManager.h */,
-				3B03F7EF1C80A2DB00A5DCBD /* SMAFURLSessionManager.m */,
-				3B03F7F01C80A2DB00A5DCBD /* SMService.h */,
-				3B03F7F11C80A2DB00A5DCBD /* SMService.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -348,17 +279,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F80B1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.h in Headers */,
-				3B03F8021C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.h in Headers */,
-				3B03F7F41C80A2DB00A5DCBD /* RateControl.h in Headers */,
-				3B03F7FF1C80A2DB00A5DCBD /* SMAFHTTPSessionManager.h in Headers */,
 				3B03F7F71C80A2DB00A5DCBD /* SatisMeter.h in Headers */,
-				3B03F8081C80A2DB00A5DCBD /* SMAFURLRequestSerialization.h in Headers */,
-				3B03F80E1C80A2DB00A5DCBD /* SMAFURLSessionManager.h in Headers */,
-				3B03F7FA1C80A2DB00A5DCBD /* SatisMeterView.h in Headers */,
-				3B03F8111C80A2DB00A5DCBD /* SMService.h in Headers */,
 				ACCED471E03346BE4B14D34FADC1A14C /* APPod-umbrella.h in Headers */,
-				3B03F8051C80A2DB00A5DCBD /* SMAFSecurityPolicy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,10 +401,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F8161C80A41000A5DCBD /* close.png in Resources */,
 				627A722B1CE59DA30A0B8D96A27562C1 /* APPod.bundle in Resources */,
 				3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
-				3B03F8181C80A41000A5DCBD /* SatisMeterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,9 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F8171C80A41000A5DCBD /* close.png in Resources */,
 				3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
-				3B03F8191C80A41000A5DCBD /* SatisMeterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,16 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F80D1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m in Sources */,
-				3B03F7FC1C80A2DB00A5DCBD /* SatisMeterView.m in Sources */,
-				3B03F8041C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m in Sources */,
-				3B03F8011C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m in Sources */,
-				3B03F80A1C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m in Sources */,
-				3B03F8101C80A2DB00A5DCBD /* SMAFURLSessionManager.m in Sources */,
-				3B03F7F91C80A2DB00A5DCBD /* SatisMeter.m in Sources */,
-				3B03F8131C80A2DB00A5DCBD /* SMService.m in Sources */,
-				3B03F8071C80A2DB00A5DCBD /* SMAFSecurityPolicy.m in Sources */,
-				3B03F7F61C80A2DB00A5DCBD /* RateControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,17 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F80F1C80A2DB00A5DCBD /* SMAFURLSessionManager.m in Sources */,
-				3B03F7FB1C80A2DB00A5DCBD /* SatisMeterView.m in Sources */,
-				3B03F8001C80A2DB00A5DCBD /* SMAFHTTPSessionManager.m in Sources */,
-				3B03F7F81C80A2DB00A5DCBD /* SatisMeter.m in Sources */,
 				4B46D57C8F5094900CEAF00A492A3287 /* APPod-dummy.m in Sources */,
-				3B03F7F51C80A2DB00A5DCBD /* RateControl.m in Sources */,
-				3B03F8121C80A2DB00A5DCBD /* SMService.m in Sources */,
-				3B03F80C1C80A2DB00A5DCBD /* SMAFURLResponseSerialization.m in Sources */,
-				3B03F8061C80A2DB00A5DCBD /* SMAFSecurityPolicy.m in Sources */,
-				3B03F8091C80A2DB00A5DCBD /* SMAFURLRequestSerialization.m in Sources */,
-				3B03F8031C80A2DB00A5DCBD /* SMAFNetworkReachabilityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
