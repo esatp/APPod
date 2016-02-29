@@ -10,10 +10,10 @@
 		34F3A5C19CE9FAC6BE7C448CD5E714B6 /* Pods-APPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DCBBF37F911681D1FF88F1C0AD0D99 /* Pods-APPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		356D6CFC38DCC6897FF02CA4A6CA68D3 /* Pods-APPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887F355A856B00163DB21C6DB6C4F2C /* Pods-APPod_Example-dummy.m */; };
 		3B03F7F71C80A2DB00A5DCBD /* SatisMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B03F7DF1C80A2DB00A5DCBD /* SatisMeter.h */; };
-		3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
-		3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */; };
-		3B03F8211C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */; };
-		3B03F8221C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */; };
+		3B03F8251C848AD400A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8231C848AD400A5DCBD /* libSatisMeter-universal.a */; };
+		3B03F8261C848AD400A5DCBD /* libSatisMeter-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B03F8231C848AD400A5DCBD /* libSatisMeter-universal.a */; };
+		3B03F8271C848AD400A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8241C848AD400A5DCBD /* SatisMeterResources.bundle */; };
+		3B03F8281C848AD400A5DCBD /* SatisMeterResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3B03F8241C848AD400A5DCBD /* SatisMeterResources.bundle */; };
 		3E0684C75C8CA09A6AB1B562F690827C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		4B46D57C8F5094900CEAF00A492A3287 /* APPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */; };
 		5050384B23ED57ED7AF06BE281E5A1DC /* Pods-APPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E45100FDD58F6F285B33527F741C72 /* Pods-APPod_Tests-dummy.m */; };
@@ -61,8 +61,8 @@
 		3873142B2990C9345DB56F904EBBC00E /* APPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APPod-umbrella.h"; sourceTree = "<group>"; };
 		3A51FFB3FA785AFC92A7020B94114313 /* Pods-APPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		3B03F7DF1C80A2DB00A5DCBD /* SatisMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SatisMeter.h; sourceTree = "<group>"; };
-		3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SatisMeterResources.bundle; sourceTree = "<group>"; };
-		3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libSatisMeter-universal.a"; sourceTree = "<group>"; };
+		3B03F8231C848AD400A5DCBD /* libSatisMeter-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libSatisMeter-universal.a"; path = "Assets/libSatisMeter-universal.a"; sourceTree = "<group>"; };
+		3B03F8241C848AD400A5DCBD /* SatisMeterResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = SatisMeterResources.bundle; path = Assets/SatisMeterResources.bundle; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		45EF95FCD48E8F3256F95E810584D537 /* APPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APPod-dummy.m"; sourceTree = "<group>"; };
 		4B666F428D857C037C40A4E32557AC29 /* APPod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APPod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F8221C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */,
+				3B03F8261C848AD400A5DCBD /* libSatisMeter-universal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F8211C84856500A5DCBD /* libSatisMeter-universal.a in Frameworks */,
+				3B03F8251C848AD400A5DCBD /* libSatisMeter-universal.a in Frameworks */,
 				C875D9D97446FA5F0C0A41F16A0ED224 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,8 +126,8 @@
 		3B03F7DB1C80A17700A5DCBD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				3B03F81B1C80BA7A00A5DCBD /* SatisMeterResources.bundle */,
-				3B03F8201C84856500A5DCBD /* libSatisMeter-universal.a */,
+				3B03F8231C848AD400A5DCBD /* libSatisMeter-universal.a */,
+				3B03F8241C848AD400A5DCBD /* SatisMeterResources.bundle */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -401,8 +401,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B03F8271C848AD400A5DCBD /* SatisMeterResources.bundle in Resources */,
 				627A722B1CE59DA30A0B8D96A27562C1 /* APPod.bundle in Resources */,
-				3B03F81C1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B03F81D1C80BA7A00A5DCBD /* SatisMeterResources.bundle in Resources */,
+				3B03F8281C848AD400A5DCBD /* SatisMeterResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

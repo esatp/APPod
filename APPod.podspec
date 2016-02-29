@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "APPod"
-  s.version          = "0.1.4"
+  s.version          = "0.1.6"
   s.summary          = "Getting to handle with creating Pod."
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*.{h,m}'
   s.resource_bundles = {
-'APPod' => ['Pod/Assets/*.{png,xib,bundle,a}']
+'APPod' => ['Pod/Assets/*.{bundle,a}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
