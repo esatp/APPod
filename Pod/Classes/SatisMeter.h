@@ -21,5 +21,5 @@
 
 -(void)identifyUserWithUserId:(NSString*)Id writeKey:(NSString*)writeKey andTraitsDictionary:(NSDictionary*)traits;
 
-
+-(NSString*)returnMyName:(NSString*)name;
 @end
